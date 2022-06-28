@@ -1,0 +1,340 @@
+@import url("../webfonts/Cinzel_Black/stylesheet.css");
+@import url("../webfonts/Roboto_Thin/stylesheet.css");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+header h1 {
+    width: 960px;
+    margin: 0px auto;
+    height: 100px;
+    padding: 75px;
+    text-align: center;
+}
+footer h5 {
+    width: 960px;
+    margin: 0px auto;
+    height: 50px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+main section {
+    width: 960px;
+    background-color: #C4CADD;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    height: auto;
+}
+
+header ,nav,main,footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    height: 250px;
+    background-color: #414792;
+    color: #D9E6E7;
+}
+nav {
+    height: 120px;
+    background-color: #526FB3;
+    color: #CED4D8;
+}
+nav ul {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+nav ul li {
+    list-style-image: none;
+    list-style-type: none;
+    width: 150px;
+    background-color:#F9F9F5;
+    color: #7E403F;
+    margin-left: 10px;
+    margin-right: 10px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    text-align: center;	
+	border-radius: 10px;
+}
+main {
+    padding: 30px 0px;
+    background-color: #98B6EB;
+}
+footer {
+    height: 100px;
+    background-color: #181A36;
+    color: #DAEFEE;
+}
+#tabla1 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #414792;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla1 thead tr th {
+    background-color: #98B6EB;
+    border-color: #526FB3;
+    color: #FFFFFF;
+    border-width: thin;
+    height: 50px;
+}
+#tabla1 tbody tr td {
+    background-color: #526FB3;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: #B7CAEB;
+    border-width: thin;
+    text-align: center;
+    height: 30px;
+}
+#tabla1 {
+}
+#tabla2 {
+    border-spacing: 12px 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #575C78;
+    color: #C4C1D7;
+    font-size: 16px;
+    width: 80%;
+}
+#tabla3 {
+    border-collapse: separate;
+    border: 2px solid #302863;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-spacing: 10px 10px;
+    width: 80%;
+}
+#tabla3 th, #tabla3 td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#tabla3 thead tr th {
+    background-color: #080816;
+    color: #DCDCE7;
+}
+
+
+#tabla3 tbody tr:nth-child(odd)  {
+    background-color: #9998DF;
+    color: #1B18E3;
+}
+#tabla3 tbody tr:nth-child(even)  {
+    background-color: #504FDC;
+    color: #B9B9E4;
+}
+#tabla0 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#tabla4 {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border-collapse: collapse;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #5684C3;
+    color: #BCC1CB;
+    text-align: center;
+    border-color: #041D4F;
+    border-width: 5px;
+}
+#tabla4 thead tr th {
+    background-color: #041D4F;
+    height: 50px;
+}
+
+#tabla4 tbody tr td {
+    height: 30px;
+}
+
+#tabla4 tbody tr:hover {
+    background-color: #181A36;
+    color: #CFCFCF;
+}
+.imagen1_size {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    display: block;
+    border-width: 0px;
+}
+.imagen2_border {
+    border: 5px solid #1A2268;
+    border-radius: 50%;
+}
+.imagen_envolvente {
+    width: 10%;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+main section h2 {
+    margin-bottom: 20px;
+}
+main section p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.flotante_derecho {
+    float: right;
+}
+.flotante_izquierdo {
+    float: left;
+
+}
+.imagen_fondo {
+    background-image: url(../medios/iamgen/4.jpg);
+    background-size: 100% 100%;
+
+}
+.box_opacidad {
+    background-color: hsla(211,52%,74%,0.55);
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+.imagen_filter {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.filter_brillo {
+    filter: brightness(125%);
+}
+.filter_blur {
+    filter: blur(5px);
+}
+.img_proces {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: auto;
+}
+.texto_proces {
+    text-align: center;
+}
+label {
+    font-size: 18px;
+    color: hsla(227,46%,16%,1.00);
+    display: block;
+}
+input[type=text] {
+    width: 350px;
+    height: 25px;
+    background-color: hsla(222,39%,51%,1.00);
+    border-radius: 20px;
+    color: hsla(0,0%,100%,1.00);
+    border: 1px solid hsla(0,0%,97%,1.00);
+    padding-left: 20px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+table label {
+    margin-bottom: 10px;
+}
+
+
+input[type=submit] {
+    width: 100px;
+    height: 25px;
+    color: hsla(236,38%,41%,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: block;
+}
+select {
+    width: 150px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    height: 25px;
+}
+.size_video {
+    width: 30%;
+    height: auto;
+}.filter_grayscale {
+    filter: grayscale(100%);
+}
+.filter_invert {
+    filter: invert(100%);
+}
+.filter_opacity {
+    filter: opacity(20%);
+}
+.filter_saturate {
+    filter: saturate(200%);
+}
+.filter_sepia {
+    filter: sepia(100%);
+}
+.filter_contrast {
+    filter: contrast(50%);
+}

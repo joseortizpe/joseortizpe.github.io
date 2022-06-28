@@ -1,0 +1,135 @@
+@charset "utf-8";
+@import url("../webfonts/Cinzel_Black/stylesheet.css");
+@import url("../webfonts/Roboto_Thin/stylesheet.css");
+@import url("../webfonts/Waffle_Story/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.flex-container-header {
+    display: flex;
+    background-color: hsla(229,42%,38%,1.00);
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: hsla(0,0%,99%,1.00);
+    text-shadow: 0px 3px 3px hsla(0,0%,60%,1.00);
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.flex-container-header h1 {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5em;
+}
+.flex-container-footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: hsla(229,42%,38%,1.00);
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-footer h5 {
+    width: 30%;
+    height: auto;
+    color: hsla(0,0%,100%,1.00);
+    text-align: center;
+}
+.flez-comtaimer-nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: hsla(220,40%,53%,1.00);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flez-comtaimer-nav div {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    width: auto;
+    text-align: center;
+    background-color: hsla(0,0%,99%,1.00);
+    height: auto;
+    border-radius: 20px;
+}
+.flez-comtaimer-nav div a {
+    color: hsla(229,42%,38%,1.00);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.flez-comtaimer-nav div a:hover {
+    font-size: 18px;
+    color: hsla(215,76%,69%,1.00);
+}
+.flex-container-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: hsla(216,56%,69%,1.00);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.flex-container-main section {
+    background-color: hsla(0,0%,80%,1.00);
+    margin: 20px;
+    padding: 30px;
+    width: 70%;
+}
+.flex-container-main section h2 {
+    font-family: "Waffle Story";
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.flex-container-main section p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poiret One';
+    font-size: 1.1em;
+}
+.animate__shake {
+}
+.animate__delay-1s {
+}
+.animate__repeat-2 {
+}
+.animate__repeat-1 {
+}
+.animate__slow {
+}
+.imagen_1 {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+.animate__delay-2s {
+}
+.animate__delay-4s {
+}
+.animate__delay-5s {
+}
+.animate__delay-3 {
+}
+.animate__delay-3s {
+}
